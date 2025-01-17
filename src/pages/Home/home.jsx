@@ -2,8 +2,9 @@ import './home.css'
 import { Box } from '../../Components/box/box'
 import { ButtonLink } from '../../Components/button-link/button-link'
 import { Header } from '../../Components/header/header'
+import { Link } from 'react-router'
 
-function Home() {
+export const Home = () => {
 
     return (
         <>
@@ -97,13 +98,13 @@ function Home() {
                         para mais contato clique nas imagens
                     </h1>
                     <div className="imgs">
-                        <a href="/">
+                        <Link href="/">
                             <img src="/images/logo.png" alt="" />
-                        </a>
-                        <a href="https://www.instagram.com/fefo_dev/?theme=dark">
-                            <img src="/images/ig.png" alt="" /></a>
-                        <a href="mailto:jauafelipe345@gmail.com?subject=serviço de software ou desejo escalar meu negocio no online&body=Digite aqui">
-                            <img src="/images/gmail.png" alt="" /></a>
+                        </Link>
+                        <Link href="https://www.instagram.com/fefo_dev/?theme=dark">
+                            <img src="/images/ig.png" alt="" /></Link>
+                        <Link href="mailto:jauafelipe345@gmail.com?subject=serviço de software ou desejo escalar meu negocio no online&body=Digite aqui">
+                            <img src="/images/gmail.png" alt="" /></Link>
                     </div>
                 </footer>
             </main>
@@ -111,4 +112,3 @@ function Home() {
     )
 }
 
-export default Home

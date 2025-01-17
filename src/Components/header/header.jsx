@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import './header.css'
 
 
@@ -8,9 +9,9 @@ export const Header = () => {
                 <img src="/images/logo.png" alt="imagem" />
             </div>
             <li>
-                <a href="">
+                <Link to={"/"}>
                     FeTechInovs
-                </a>
+                </Link>
             </li>
         </header>
     )
