@@ -62,21 +62,21 @@ function App() {
         <div className='box-container'>
           <div>
             <Box
-              images="/public/images/box/processo.png"
+              images="/images/box/processo.png"
               text={"Tenha total transparência e controle. Acompanhe cada etapa do projeto em tempo real."}
               element={<ButtonLink link={"/formulario"} text={"Saiba mais"} />}
             />
           </div>
           <div>
             <Box
-              images="/public/images/box/design-de-interface-do-usuario.png"
+              images="/images/box/design-de-interface-do-usuario.png"
               text={"Experiência visual incrível e navegação intuitiva. Designs criados para encantar e converter."}
               element={<ButtonLink link={"/formulario"} text="Saiba mais" />}
             />
           </div>
           <div>
             <Box
-              images="/public/images/box/orcamento.png"
+              images="/images/box/orcamento.png"
               text={"Soluções acessíveis sem abrir mão da qualidade. Perfeito para o seu negócio."}
               element={<ButtonLink link={"/formulario"} text={"Saiba mais"} />}
             />
@@ -86,7 +86,7 @@ function App() {
           <h1>Pronto para elevar sua empresa ao próximo nível? ?</h1>
           <div>
             <Box
-              images={"/public/images/logo.png"}
+              images={"/images/logo.png"}
               text={"Escale seu negocio no digital com a gente HOJE!"}
               element={<ButtonLink link={"/formulario"} text={"estou pronto"} />} />
           </div>
@@ -98,12 +98,12 @@ function App() {
           </h1>
           <div className="imgs">
             <a href="/">
-              <img src="/public/images/logo.png" alt="" />
+              <img src="/images/logo.png" alt="" />
             </a>
             <a href="https://www.instagram.com/fefo_dev/?theme=dark">
-              <img src="/public/images/ig.png" alt="" /></a>
+              <img src="/images/ig.png" alt="" /></a>
             <a href="mailto:jauafelipe345@gmail.com?subject=serviço de software ou desejo escalar meu negocio no online&body=Digite aqui">
-              <img src="/public/images/gmail.png" alt="" /></a>
+              <img src="/images/gmail.png" alt="" /></a>
           </div>
         </footer>
       </main>
