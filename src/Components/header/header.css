@@ -1,0 +1,42 @@
+.header {
+    z-index: 10;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    background-color: rgb(0, 0, 0, 50%);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    border-radius: 40px;
+    margin-top: 20px;
+    position: absolute;
+    border: #fff 2px solid;
+}
+
+.header .logo {
+    margin-left: 20px;
+}
+
+.header .logo img {
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.header li {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.header li a {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header li a:hover {
+    font-style: italic;
+    color: #a7a5a569;
+}
