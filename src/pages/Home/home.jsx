@@ -84,7 +84,7 @@ export const Home = () => {
                     </div>
                 </div>
                 <div className="content-finish">
-                    <h1>Pronto para elevar sua empresa ao próximo nível? ?</h1>
+                    <h1>Pronto para elevar sua empresa ao próximo nível ?</h1>
                     <div>
                         <Box
                             images={"/images/logo.png"}

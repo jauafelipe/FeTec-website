@@ -8,4 +8,15 @@ export default defineConfig({
   build: {
     outDir: 'dist'
   },
+  preview: {
+    host: true,
+    port: 5173
+  },
+  server: {
+    host: true,
+    port: 5173,
+    watch: {
+      usePolling: true
+    }
+  }
 })
